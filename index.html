@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codo a codo</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="navbar-brand" href="#">Codo a codo</a>
+                </li>
+                <li class="navbar-nav .active">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="navbar-nav">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Desactivado</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Buscar">
+                    <button class="btn btn-primary" type="button">Buscar</button>
+                </form>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluido m-1">
+        <div class="row">
+            <div class="col-4 p-0">
+                <div class="card altura">
+                    <img class="card-img-top imagen" src="Imagenes\html.jpg" alt="Logo">
+                    <div class="card-body">
+                        <h3>título 1</h3>
+                        <h4>Contenido de card</h4>
+                        <p>última actualización 1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 p-0">
+                <div class="card altura">
+                    <img class="card-img-top imagen" src="Imagenes\css.png" alt="Logo">
+                    <div class="card-body">
+                        <h3>título 1</h3>
+                        <h4>Contenido de card</h4>
+                        <p>última actualización 1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 p-0">
+                <div class="card altura">
+                    <img class="card-img-top imagen" src="Imagenes\bootstrap.png" alt="Logo">
+                    <div class="card-body">
+                        <h3>título 1</h3>
+                        <h4>Contenido de card</h4>
+                        <p>última actualización 1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluido m-1">
+        <form action="/action_page.php">
+            <div class="mb-3 mt-3">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email"  name="email">
+                <p class="texto">Nunca comparta su mail</p>
+            </div>
+            <div class="mb-3">
+                <label for="pwd">Contraseña:</label>
+                <input type="password" class="form-control" id="pwd" name="pswd">
+            </div>
+            <div class="form-check mb-3">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Verificar
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
